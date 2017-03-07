@@ -9,7 +9,12 @@ input{
   border-radius:15px;
   padding:12px 20px;
   margin-bottom: 5px;
+  background-color: transparent;
+  border: 0px solid;
+  border-bottom: 2px white solid;
+  color: white;
 }
+
 .create{
   box-shadow: 0px 1px 0px 0px #1c1b18;
   background-color:#2C3E50 ;
@@ -29,10 +34,6 @@ input{
   transition-duration: 0.4s;
 }
 
-/*.form1{
-display: none;
-}
-*/
 
 .visible{
   display: block;
@@ -70,7 +71,7 @@ display: none;
 }
 
 
-.submit1 {
+.submit1{
   box-shadow: 0px 1px 0px 0px #1c1b18;
   background-color:#6C7A89;
   border-radius:15px;
@@ -84,4 +85,11 @@ display: none;
   margin-top: 15px;
 }
 
-
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}

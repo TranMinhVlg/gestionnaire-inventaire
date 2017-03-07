@@ -18,6 +18,11 @@ include_once "src/php/connect_bdd.php"; //connect to database
 
 
     <form action="src/php/add.php" method="post" class=" form1 invisible">
+
+      <div>
+        <input type="file" class="inputfile"/>
+      </div>
+
       <input type="text" name="name-manga" placeholder="" id="name-manga">
       <label for="first-name">Name manga</label>
       <br>
@@ -37,7 +42,7 @@ include_once "src/php/connect_bdd.php"; //connect to database
 
       <input type="submit" value="SUBMIT" class="submit">
       <input type="button" value="CANCEL" class="submit1">
-      
+
     </form>
 
 
@@ -46,7 +51,9 @@ include_once "src/php/connect_bdd.php"; //connect to database
     $requete = $database -> prepare("SELECT * FROM produit");
     $requete -> execute();
     $tab = $requete -> fetchAll();
-    foreach($tab as $index){?>
+    foreach($tab as $index){
+    ?>
+
 
     <form action="src/php/delete.php" method="post">
       <input type="hidden" name="id" value="<?php echo $index[0]?>">
@@ -71,7 +78,7 @@ include_once "src/php/connect_bdd.php"; //connect to database
 
     </form>
     <?
-                           }
+    }
     ?>
 
 
