@@ -1,6 +1,7 @@
 <?php
 
 include_once "src/php/connect_bdd.php"; //connect to database
+include_once "src/php/add.php"; //connect to database
 
 ?>
 
@@ -15,30 +16,53 @@ include_once "src/php/connect_bdd.php"; //connect to database
   <body>
     <input type="submit" value="+  CREATE" class="create">
 
+    <div class="messages success">
+        <?php foreach($success_messages as $_message): ?>
+            <p><?= $_message ?></p>
+        <?php endforeach ?>
+    </div>
 
-
-    <form action="src/php/add.php" method="post" class=" form1 invisible">
+    <div class="messages errors">
+        <?php foreach($error_messages as $_key => $_message): ?>
+            <p><?= "$_key : $_message" ?></p>
+        <?php endforeach ?>
+    </div>
+    <form action="#" method="post" class=" form1 invisible">
 
       <div>
-        <input type="file" class="inputfile"/>
+        <input type="file"/>
       </div>
 
+     <div class="<?= array_key_exists('name_manga', $error_messages) ? 'error' : '' ?>">
       <input type="text" name="name-manga" placeholder="" id="name-manga">
-      <label for="first-name">Name manga</label>
+      <label for="name-manga">Name manga</label>
       <br>
+      </div>
+      
+      <div class="<?= array_key_exists('author', $error_messages) ? 'error' : '' ?>">
       <input type="text" name="author" placeholder="" id="author">
-      <label for="last-name">Author</label>
+      <label for="author">Author</label>
       <br>
+      </div>
 
+     <div class="<?= array_key_exists('price', $error_messages) ? 'error' : '' ?>">
       <input type="int" name="price" placeholder="" id="price">
       <label for="price">$</label>
       <br>
+      </div>
+      
+      <div class="<?= array_key_exists('description', $error_messages) ? 'error' : '' ?>">
       <input type="text" name="description" placeholder="" id="description">
       <label for="description">Description</label>
+      </div>
       <br>
+      
+      <div class="<?= array_key_exists('date', $error_messages) ? 'error' : '' ?>">
       <input type="text" name="date" placeholder="" id="date">
       <label for="date">Date</label>
+      </div>
       <br>
+      
 
       <input type="submit" value="SUBMIT" class="submit">
       <input type="button" value="CANCEL" class="submit1">
@@ -58,30 +82,33 @@ include_once "src/php/connect_bdd.php"; //connect to database
     <form action="src/php/delete.php" method="post">
       <input type="hidden" name="id" value="<?php echo $index[0]?>">
       <input type="text" name="name-manga" placeholder="" id="name-manga" value="<?php echo $index[1]?> ">
-      <label for="first-name">Name manga</label>
+      <label for="name-manga">Name manga</label>
+      
       <br>
       <input type="text" name="author" placeholder="" id="author" value="<?php echo $index[2];?>">
-      <label for="last-name">Author</label>
+      <label for="author">Author</label>
+      
       <br>
 
       <input type="int" name="price" placeholder="" id="price" value="<?php echo $index[3];?>">
       <label for="price">$</label>
+      
       <br>
       <input type="text" name="description" placeholder="" id="description" value="<?php echo $index[4];?>">
       <label for="description">Description</label>
+      
       <br>
       <input type="text" name="date" placeholder="" id="date" value="<?php echo $index[5];?>">
       <label for="date">Date</label>
+      
       <br>
 
       <input type="submit" value="DELETE" class="delete">
 
     </form>
-    <?
+    <?php
     }
     ?>
-
-
 
     <script src="src/js/script.js"></script>
   </body>
