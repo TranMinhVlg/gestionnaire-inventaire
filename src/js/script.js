@@ -1,3 +1,4 @@
+//Display the form
 var create = document.querySelector(".create");
 create.addEventListener("click", function(){
   document.querySelector(".form1").classList.remove("invisible");
