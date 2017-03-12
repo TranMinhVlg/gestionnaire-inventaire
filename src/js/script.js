@@ -7,21 +7,3 @@ var del = document.querySelector(".submit1");
 del.addEventListener("click", function(){
   document.querySelector(".form1").classList.add("invisible");
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

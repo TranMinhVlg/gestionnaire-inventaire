@@ -11,26 +11,16 @@ if(!empty($_POST))
 {
 
   // Retrieve data
-  $name_manga = trim($_POST['name-manga']);
-  $author = $_POST["author"];
+  $name_manga   = trim($_POST['name-manga']);
+  $author       = trim($_POST["author"]);
   $price        = (int)$_POST['price'];
-  $description = $_POST["description"];
-  $date = $_POST["date"];
+  $description  = $_POST["description"];
+  $date         = $_POST["date"];
 
   // Name manga errors
   if(empty($name_manga))
-    $error_messages['name_manga'] = 'should not be empty';
+    $error_messages['name-manga'] = 'should not be empty';
 
-  // Price errors
-  if(empty($price))
-    $error_messages['price'] = 'should not be empty';
-  else if($price < 0 || $price > 150 || is_nan($price))
-    $error_messages['price'] = 'wrong value';
-
-
-  // No errors
-  if(empty($error_messages))
-  {
 
 $request = $database -> prepare ("INSERT INTO produit(name, price, author, description, date) VALUES (:name, :price, :author, :description, :date)");
 
@@ -42,6 +32,5 @@ $request -> bindValue(":date", $date);
 
 $request -> execute();
   }
-}
 ?>
 
