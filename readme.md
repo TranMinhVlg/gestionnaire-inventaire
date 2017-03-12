@@ -1,9 +1,9 @@
-##MY PROJECT : Database Manager
+##MY FIRST PHP PROJECT : Database Manager
 
 ###Choose the kind of products in your shop and create an inventory manager for your products.
 _________________________________________
 
-I wanted to thank my web development professor, Bruno Simon for introducing me the basics of PHP, which allowed me to realize this project today.
+I wanted to thank my web development professor, @brunosimon for introducing me the basics of PHP, which allowed me to realize this project today.
 
 ###🔥 WHAT WERE MY INSPIRATIONS ?
 
