@@ -1,50 +1,60 @@
-MY PROJECT : Database Manager
+##MY PROJECT : Database Manager
 
-Choose the kind of products in your shop and create an inventory manager for your products.
+###Choose the kind of products in your shop and create an inventory manager for your products.
 _________________________________________
 
 I wanted to thank my web development professor, Bruno Simon for introducing me the basics of PHP, which allowed me to realize this project today.
 
-***** WHAT WERE MY INSPIRATIONS ? ******
+###🔥 WHAT WERE MY INSPIRATIONS ?
 
     - dribbble.com
     - codepen.io
 
-***** WHAT ARE THE FEATURES ? *****
+###📌 WHAT ARE THE FEATURES ? 
 
-    DATABASE : 
+    Features : 
 
     - Create a form to enter data into my database by the button submit.
     - Does not allow you to create two forms.
     - Cancel the form by the button cancel.
     - Transition on a field of the form when it is selected.
-    - Delete a line of my table into my database by the button delete.
+    - Delete rows of my table into my database by the button delete.
     - Display an error message when a validated form is empty
 
-***** WHAT ARE INSTALLATIONS ? *****
+###⚒ WHAT ARE INSTALLATIONS ?
 
-    - jQuery library and a mp3 file have been installed.
+    - MAMP 7.0.15
+    - MySQL 5.6.35
+    - A .sql file of my database on phpadmin
 
-***** WHAT WERE MY DIFFICULTIES ENCOUNTERED ? *****
+###🚧 WHAT WERE MY DIFFICULTIES ENCOUNTERED ? 
 
-    - I took a little time to adapt to the new things we learned in class. My main difficulty was to bring up day and night to hover rocket, unfortunately I have been using jQuery to achieve it. However I still realize the idea I had in mind.
+    - My goal on this project was to apply all the notions seen in class.
+    - I spent a lot of time on managing error message conditions, and unfortunately I had to give up that part.
+    - Adapt what we saw in class with what we wanted to achieve.
 
-***** WHAT WOULD BE THE FUTURE FEATURES ? *****
+###🚀 WHAT WOULD BE THE FUTURE FEATURES ? 
 
-    - Bring up the stars in the night
-    - Achieve a rocket more realistic 
-    - Make a joyful environment around rocket
+    - Upload an image and store it in my database.
+    - Be able to connect to the interface
+    - Error and Success Messages
+    - Low inventory alerts
+    - Export inventory
+    - Add a search bar
+    - Sort products by adding drag and drop option
 
-***** WHAT I HAVE LEARNED DURING THIS PROJECT *****
+###✅ WHAT I HAVE LEARNED DURING THIS PROJECT 
 
-    - I am more comfortable with the syntax animations and   transitions.
-    - I learned to write correctly keyframes
-    - I make the difference between animation and             transition
-    - I understook how to use cubic bezier
+    - I am more comfortable with the PHP syntax, interface for manipulating data like PhpMyAdmin.
+    - I know how to create tables with rows and columns.
+    - Working the PHP with HTML/JS
+    - I know how to connect to my database
+    - I know basic function that allows me to communicate with my database.
+    - Process forms through lessons and documentations on google.
 
 
 
 Tran Minh VILLAGEOIS
 H2 P2020
 
-10/10/2016
+12/03/2017
