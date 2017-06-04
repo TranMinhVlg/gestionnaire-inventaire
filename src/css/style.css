@@ -93,10 +93,8 @@ label{
 }
 
 .delete{
-  box-shadow: 0px 1px 0px 0px #1c1b18;
   background-color:#D64541;
   border-radius:15px;
-  border:2px solid black;
   cursor:pointer;
   color:white;
   padding:12px 25px;

@@ -1,16 +1,16 @@
-##MY FIRST PHP PROJECT : Database Manager
+## MY FIRST PHP PROJECT : Database Manager
 
-###Choose the kind of products in your shop and create an inventory manager for your products.
+### Choose the kind of products in your shop and create an inventory manager for your products.
 _________________________________________
 
 I wanted to thank my web development professor, @brunosimon for introducing me the basics of PHP, which allowed me to realize this project today.
 
-###🔥 WHAT WERE MY INSPIRATIONS ?
+### 🔥 WHAT WERE MY INSPIRATIONS ?
 
     - dribbble.com
     - codepen.io
 
-###📌 WHAT ARE THE FEATURES ? 
+### 📌 WHAT ARE THE FEATURES ? 
 
     Features : 
 
@@ -21,19 +21,19 @@ I wanted to thank my web development professor, @brunosimon for introducing me t
     - Delete rows of my table into my database by the button delete.
     - Display an error message when a validated form is empty
 
-###⚒ WHAT ARE INSTALLATIONS ?
+### ⚒ WHAT ARE INSTALLATIONS ?
 
     - MAMP 7.0.15
     - MySQL 5.6.35
     - A .sql file of my database on phpadmin
 
-###🚧 WHAT WERE MY DIFFICULTIES ENCOUNTERED ? 
+### 🚧 WHAT WERE MY DIFFICULTIES ENCOUNTERED ? 
 
     - My goal on this project was to apply all the notions seen in class.
     - I spent a lot of time on managing error message conditions, and unfortunately I had to give up that part.
     - Adapt what we saw in class with what we wanted to achieve.
 
-###🚀 WHAT WOULD BE THE FUTURE FEATURES ? 
+### 🚀 WHAT WOULD BE THE FUTURE FEATURES ? 
 
     - Upload an image and store it in my database.
     - Be able to connect to the interface
@@ -43,7 +43,7 @@ I wanted to thank my web development professor, @brunosimon for introducing me t
     - Add a search bar
     - Sort products by adding drag and drop option
 
-###✅ WHAT I HAVE LEARNED DURING THIS PROJECT 
+### ✅ WHAT I HAVE LEARNED DURING THIS PROJECT 
 
     - I am more comfortable with the PHP syntax, interface for manipulating data like PhpMyAdmin.
     - I know how to create tables with rows and columns.
