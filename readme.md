@@ -3,8 +3,6 @@
 ### Choose the kind of products in your shop and create an inventory manager for your products.
 _________________________________________
 
-I wanted to thank my web development professor, @brunosimon for introducing me the basics of PHP, which allowed me to realize this project today.
-
 ### 🔥 WHAT WERE MY INSPIRATIONS ?
 
     - dribbble.com
@@ -27,12 +25,6 @@ I wanted to thank my web development professor, @brunosimon for introducing me t
     - MySQL 5.6.35
     - A .sql file of my database on phpadmin
 
-### 🚧 WHAT WERE MY DIFFICULTIES ENCOUNTERED ? 
-
-    - My goal on this project was to apply all the notions seen in class.
-    - I spent a lot of time on managing error message conditions, and unfortunately I had to give up that part.
-    - Adapt what we saw in class with what we wanted to achieve.
-
 ### 🚀 WHAT WOULD BE THE FUTURE FEATURES ? 
 
     - Upload an image and store it in my database.
@@ -42,15 +34,6 @@ I wanted to thank my web development professor, @brunosimon for introducing me t
     - Export inventory
     - Add a search bar
     - Sort products by adding drag and drop option
-
-### ✅ WHAT I HAVE LEARNED DURING THIS PROJECT 
-
-    - I am more comfortable with the PHP syntax, interface for manipulating data like PhpMyAdmin.
-    - I know how to create tables with rows and columns.
-    - Working the PHP with HTML/JS
-    - I know how to connect to my database
-    - I know basic function that allows me to communicate with my database.
-    - Process forms through lessons and documentations on google.
 
 
 
